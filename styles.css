@@ -5,11 +5,11 @@ body {
 }
 
 .darker-bg {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(29, 29, 29) !important;
 }
 
 .lighter-bg {
-    background-color: #36393E; 
+    background-color: #36393E !important; 
 }
 
 .hero-image{
@@ -71,9 +71,10 @@ font-size: x-small;
     font-size: large;
 }
 
+/* Christ this was hard to find, cant u index them properly u **** */
 .interests-hobbies img {
     width: 60%;
-    border-radius: 30px;
+    border-radius: 50px;
     float: inline-start;
     padding-right: 4%;
 }
@@ -90,6 +91,13 @@ font-size: x-small;
     font-size: large;
 }
 
+ul.navbar-text {
+  font-size: large;
+}
+
+.contact-inside-box {
+  border-radius: 50px;
+}
 
 
 /* From Uiverse.io by neerajbaniwal; thank you! */ 
@@ -156,4 +164,25 @@ font-size: x-small;
     }
   }
   
-  
+/* From GeeksForGeeks, thank you! */
+/* width */
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 500px rgb(39, 39, 91); 
+  border-radius: 30pxpx;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(156, 36, 36); 
+  border-radius: 30pt;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d2d224; 
+}
